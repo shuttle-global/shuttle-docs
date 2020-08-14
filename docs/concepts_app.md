@@ -3,6 +3,14 @@ id: concepts_app
 title: Shuttle Application
 ---
 
+Don't feel like reading? Watch the video:
+
+<iframe
+  src="https://www.loom.com/embed/f5a9b412d35f4fa4831ab339431dd085"
+  style={{width: "807px", height:"400px", border: "none"}}
+></iframe>
+
+
 When you are first provided access to the Shuttle portal, you will be prompted to create your **organisation** and an **application**. An application contains two environments:
 
 * **Sandbox**: This environment processes test transactions and no money is moved. This environment is intended for development, test and demos, and not for heavy use.
@@ -11,6 +19,8 @@ When you are first provided access to the Shuttle portal, you will be prompted t
 Only your **Live** environment is billed and has a SLA on support. While there are currently no limits in place on your sandbox environment, this may change in future and is subject to a "fair use" policy.
 
 We provide up to 90 days prior to commencement of billing for integration, during this period you can only access Sandbox. Once your integration is ready to go Live, or you wish to progress to Live testing, please contact support@shuttleglobal.com (or via Slack) to enable your live environment. If you already have billing enabled, you are able to configure additional applications and access their Live environment immediately.
+
+
 
 ## Accounts
 
