@@ -18,6 +18,10 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className="title">Welcome to the SaaS platform developer user guide.<br/>
+          If you are a merchant or end customer, this documentation is not relevent to you.</p>
+          <br/>
+          <br/>
           <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -25,7 +29,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              User Guide
             </Link>
           </div>
         </div>

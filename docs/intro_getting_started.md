@@ -10,7 +10,7 @@ This document is a work in progress. It is intended to complement the API docs, 
 :::
 
 
-This guide is intended for a technical audience, planning or implementing an integration. It is split into several sections:
+This guide is written for a technical audience, planning or implementing an integration. It is split into several sections:
 
 * Concepts
 * Integration

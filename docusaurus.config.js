@@ -18,8 +18,18 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'User Guide',
           position: 'left',
+        }, {
+          to: 'https://api.shuttleglobal.com/',
+          activeBasePath: '/',
+          label: 'API',
+          position: 'left',
+        }, {
+          to: 'https://app.shuttleglobal.com/c/devportal/',
+          activeBasePath: '/',
+          label: 'Login',
+          position: 'right',
         },
       ],
     },
@@ -57,7 +67,7 @@ module.exports = {
           homePageId: 'intro_getting_started',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/shuttle-global/shuttle-docs/',
+          // editUrl: 'https://github.com/shuttle-global/shuttle-docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
