@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Shuttle',
   tagline: 'Global Payment Logistics',
-  url: 'https://docs.shuttleglobal.com',
+  url: 'http://docs.shuttleglobal.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.png',
-  organizationName: 'Shuttle Global', 
-  projectName: 'Shuttle', // Usually your repo name.
+  organizationName: 'shuttle-global', 
+  projectName: 'shuttle-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '',
@@ -57,7 +57,7 @@ module.exports = {
           homePageId: 'intro_getting_started',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          // editUrl: 'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/shuttle-global/shuttle-docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
