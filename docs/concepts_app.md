@@ -1,6 +1,6 @@
 ---
 id: concepts_app
-title: Shuttle Application
+title: Application
 ---
 
 Don't feel like reading? Watch the video:
