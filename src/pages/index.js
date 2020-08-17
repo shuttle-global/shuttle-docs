@@ -18,7 +18,7 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <p className="title">Welcome to the SaaS platform developer user guide.<br/>
+          <p className="title">Welcome to the SaaS developer user guide.<br/>
           If you are a merchant or end customer, this documentation is not relevent to you.</p>
           <br/>
           <br/>

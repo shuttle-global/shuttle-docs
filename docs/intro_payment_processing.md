@@ -10,7 +10,7 @@ This article is a short walk through of the fundamentals of payment processing, 
 
 There are many ways to perform an electronic payment, some common ones are:
 
-* **Cards**: Credit / debit cards from brands like Visa, Mastercard, Amex. A payment gateway will issue an instruction to the **card issuer** (the Customer's bank) to transfer funds to a **merchant account** (a special kind bank account) issued to the merchant by a **merchant acquirer**. 
+* **Cards**: Credit / debit cards from brands like Visa, Mastercard, Amex. A payment gateway will issue an instruction to the **card issuer** (the Customer's bank) to transfer funds to a **merchant account** (a special kind bank account) issued to the merchant by a **merchant acquirer**. The card issuer may request 3D secure to authorise the payment. 
 * **Bank Transfer**: An instruction to deduct money from a customer bank account, and credit it into a recipient bank account. This will run over a set of **payment rails** like ACH (USA), SEPA (Europe) or BACS (UK).
 * **Wallet**: A customer maintains a digital wallet (like Paypal) with a balance, which can be instructed to transfer money into a merchant's digital wallet.
 
