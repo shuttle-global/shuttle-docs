@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Shuttle',
   tagline: 'Global Payment Logistics',
-  url: 'https://shuttle-docs.github.io',
+  url: 'https://docs.shuttleglobal.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.png',
