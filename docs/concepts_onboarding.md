@@ -49,7 +49,7 @@ The tool is designed to be a "black box" ie you do not need to know the detail o
 
 ## Configuration Status
 
-To provide a really intuitive experience for your users, its recommended to check the "Payments Ready" API [here](https://api.shuttleglobal.com/?version=latest#58a5574f-47c9-4231-9726-d35d01d855e1). This will return:
+To provide an intuitive experience for your users, its recommended to check the "Payments Ready" API [here](https://api.shuttleglobal.com/?version=latest#58a5574f-47c9-4231-9726-d35d01d855e1). This will return:
 
 * `payments_ready`: true / false, indicating the customer is ready to process a payment  
 * `currencies`: the currencies the customer is able to process 

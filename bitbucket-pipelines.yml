@@ -1,0 +1,16 @@
+# Check our guides at https://confluence.atlassian.com/x/VYk8Lw for more examples.
+# Only use spaces to indent your .yml configuration.
+image: node:12.10.0
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: "Build"
+          script:
+            - echo "Setting up build environment"
+            - export USE_SSH=false
+            - echo "machine github.com login $GIT_USER password $GITHUB_TOKEN" > ~/.netrc
+            - npm install -g docusaurus
+            - yarn deploy
+            - echo "Done!
